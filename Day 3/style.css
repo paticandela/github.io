@@ -1,0 +1,82 @@
+html,
+body{
+	height: 100%;
+	margin: 0;
+
+}
+.relative {
+	position: relative;
+	background-color: pink;
+	padding: 15px;
+	top: 30px;
+	font-family: 'Beer money';
+	font-weight: 400;
+}
+
+.absolute{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	border: 2px solid red;
+	padding: 80px;
+	background-color: yellow;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+
+
+}
+
+.up {
+	z-index: 1;
+}
+
+.purple {
+	background-color: purple;
+	height: 100px; 
+}
+
+.main-menu {
+	list-style: none;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+}
+.main-menu li {
+	padding: 15px;
+}
+aside {
+	background-color: rgb(0,0,0);
+	padding: 30px;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	z-index: 2;
+	top: 0;
+	color: white;
+
+}
+.wrapper {
+	background: linear-gradient(45deg,#eeeeee,#111111,green);
+}
+.wrapper {
+	background: radial-gradient(#38bac7,#324a56);
+}
+.avatar {
+	background-image: url('SURF 1.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	transition: all 2s;
+}
+.avatar:hover {
+	transform: rotate(359deg) scale(2);
+
+}
+.aside-menu {
+	height: 100%;
+}
