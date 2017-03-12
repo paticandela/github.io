@@ -1,0 +1,17 @@
+.item img {
+	width: 100%;
+}
+.btn-animation {
+	padding: 10px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	margin: 10px;
+	font-size: 40px;
+	border-radius: 5px;
+}
+
+.btn-animation.active {
+	background-color: #5656ad;
+	border: 1px solid #422963; 
+
+}
